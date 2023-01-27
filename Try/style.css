@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(./bg.jpg) no-repeat center center fixed;
+}
+section{
+    position: fixed;
+    z-index: -999;
+    backdrop-filter: blur(1px);
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, #04619fa0, rgba(0, 0, 0, 0.567));
+    min-width: 100vw;
+    min-height: 100vh;
+}
+nav{
+    text-align: center;
+    z-index: 999;
+    width: 100vw;
+    min-height: 5%;
+    background: linear-gradient(black, rgb(36, 36, 36));
+}
+nav ul{
+    display: flex;
+    padding: 12px;
+}
+nav li{
+    padding: 0 32px; 
+    font-size: 32px;
+    color: white;
+    list-style: none;
+    display: flex;
+}
