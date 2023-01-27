@@ -11,9 +11,21 @@ section{
     backdrop-filter: blur(1px);
     padding: 0;
     margin: 0;
-    background: linear-gradient(90deg, #04619fa0, rgba(0, 0, 0, 0.567));
+    background: linear-gradient(90deg, #04619fa0, rgba(68, 171, 255, 0.292));
     min-width: 100vw;
     min-height: 100vh;
+    animation: animate linear 10s infinite;
+}
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(180deg);
+    }
+    100%{
+        filter: hue-rotate(90deg);
+    }
 }
 nav{
     text-align: center;
