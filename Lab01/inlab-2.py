@@ -74,8 +74,8 @@ def chatbot():
             print("Invalid message")
 
 print("Hi I am chatbot of HP service company")
-print("1.My laptop won’t wake up")
-print("2.The battery won’t charge")
+print("1.My laptop won't wake up")
+print("2.The battery won't charge")
 print("3.Touch pad")
 print("4.keyboard")
 print("5.Power management ")
